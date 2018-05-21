@@ -1,0 +1,12 @@
+@model Beltretake.Models.Join
+
+<h1>@ViewBag.shown.name</h1>
+
+<p>Event coordinator: @ViewBag.creator.first @ViewBag.creator.last</p>
+<h2>Description</h2>
+<p>@ViewBag.shown.description</p>
+
+<h2>Participants:</h2>
+@foreach(var participation in @ViewBag.shown.participating){
+    <p>@participation.user.first @participation.user.last</p>
+}

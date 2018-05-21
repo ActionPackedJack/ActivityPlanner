@@ -1,0 +1,20 @@
+@model Beltretake.Models.RegisterVM
+
+<form asp-controller="Brightideas" asp-action="registerPost">
+    <p>Email: <input asp-for="email"></p>
+    <span asp-validation-for="email"></span>
+
+    <p>First name: <input asp-for="first"></p>
+    <span asp-validation-for="first"></span>
+
+    <p>Last name: <input asp-for="last"></p>
+    <span asp-validation-for="last"></span>
+
+    <p>Password: <input asp-for="password"></p>
+    <span asp-validation-for="password"></span>
+
+    <p>Confirm Password: <input asp-for="confirm"></p>
+    <span asp-validation-for="confirm "></span>
+    <input type="submit" value="Register" value "register">
+</form>
+<h6>Already have an account? <a href="/login">Click here</a> to log in.</h6>

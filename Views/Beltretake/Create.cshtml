@@ -1,0 +1,22 @@
+@model Beltretake.Models.Activity
+
+<h2>Plan an activity!</h2>
+<a href="/logout"> Logout</a>
+<a href="/activities"> Home</a>
+<form method="POST" action="/Add">
+    Title:<input asp-for="name"><br>
+    Description:<input asp-for="description"><br>
+    Start date: <input asp-for="start" type="date"><br>
+    Duration: <input asp-for="duration">
+    <select name="timeunit">
+  <option value="days">Days</option>
+  <option value="hours">Hours</option>
+  <option value="minutes">Minutes</option>
+</select>
+    <input type="submit">
+</form>
+
+
+
+
+

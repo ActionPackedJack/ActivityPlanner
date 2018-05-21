@@ -1,0 +1,16 @@
+@model Beltretake.Models.LoginVM
+
+<h1>Login</h1>
+
+<form asp-controller="Beltretake" asp-action="loginPost" method="POST">
+    <p>Email: <input asp-for="email"></span> </p>
+    <span asp-validation-for="email">
+    </span>
+
+    <p>Password:<input asp-for="password"></span></p>
+    <span asp-validation-for="password">
+    </span>
+    <input type="submit" value="Login">
+    
+    <h6>Don't have an account yet? <a href="/register">Click here</a> to sign up.</h6>
+</form>

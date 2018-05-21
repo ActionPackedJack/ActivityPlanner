@@ -1,0 +1,35 @@
+@model Beltretake.Models.Activity
+<head>
+    <link rel="stylesheet" href="wwwroot/" type="text/css" />
+</head>
+<h1>Welcome, @ViewBag.loggedin.first!</h1>   <a href="logout"> Logout</a>
+<br>
+<br>
+<br>
+<table>
+    <thead>
+        <th>Activity</th>
+        <th>Date and time</th>
+        <th>Duration</th>
+        <th>Event Coordinator</th>
+        <th>Number of Participants</th>
+        <th>Actions</th>
+    </thead>
+    @foreach(var activity in ViewBag.activities){
+        <tr>
+            <td><a href="/show/@activity.id">@activity.name</a></td>
+            <td>@activity.start</td>
+            <td>@activity.duration</td>
+            <td>@activity.creator.first @activity.creator.last</td>
+            <td>@activity.participating.Count</td>
+            <td>
+                @if (@activity.creatorid== @ViewBag.loggedin.id){<a href="/delete/@activity.id">Delete</a>}
+                else {<a href="/join/@activity.id">Join</a>}
+            </td>
+            
+        </tr>
+        }
+    <a href="create/"> Create an activity!</a>
+</table>
+
+

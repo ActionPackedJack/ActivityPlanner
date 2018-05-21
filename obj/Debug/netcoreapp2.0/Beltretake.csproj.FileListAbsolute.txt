@@ -1,0 +1,11 @@
+/Users/ActionJack/Desktop/Beltretake/bin/Debug/netcoreapp2.0/Beltretake.deps.json
+/Users/ActionJack/Desktop/Beltretake/bin/Debug/netcoreapp2.0/Beltretake.runtimeconfig.json
+/Users/ActionJack/Desktop/Beltretake/bin/Debug/netcoreapp2.0/Beltretake.runtimeconfig.dev.json
+/Users/ActionJack/Desktop/Beltretake/bin/Debug/netcoreapp2.0/Beltretake.dll
+/Users/ActionJack/Desktop/Beltretake/bin/Debug/netcoreapp2.0/Beltretake.pdb
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.csprojResolveAssemblyReference.cache
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.csproj.CoreCompileInputs.cache
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.AssemblyInfoInputs.cache
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.AssemblyInfo.cs
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.dll
+/Users/ActionJack/Desktop/Beltretake/obj/Debug/netcoreapp2.0/Beltretake.pdb
